@@ -14,7 +14,7 @@ None
 
 1. sudo yum -y install wget unzip
 
-1. Download Terraforms:
+1. Download Terraform:
 
     ```shell script
      export VER="0.12.26"
