@@ -76,7 +76,8 @@ The purpose of this document is to show how to work with Terraform modules.
 
     ![TreeOutput](images/tree-of-all-modules.png)
 
-    The output shows **tree** shows all that you have three modules:
+    The output shows all that you have three modules:
+     
       - provider
       - security_group
       - vm
