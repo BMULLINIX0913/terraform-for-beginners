@@ -74,8 +74,7 @@ The purpose of this document is to show how to work with Terraform modules.
 1. Run `pwd`.  The output will show you are directly under the **modules** directory.
 1. Run `tree`.  The output is shown below:
 
-    ![Image Showing the tree of all modules]
-    (./images/tree-of-all-modules.png)
+    ![TreeOutput](images/tree-of-all-modules.png)
 
 1. Specify the AWS provider:
 
