@@ -76,42 +76,7 @@ The purpose of this document is to show how to work with Terraform modules.
 
     ![TreeOutput](images/tree-of-all-modules.png)
 
-1. Specify the AWS provider:
-
-    ```hcl-terraform
-    provider "aws" {
-      region = "us-east-2"}
-    ```
-
-1. Specify the Security Group to use for the VPC:
-
-   ```hcl-terraform
-   resource "aws_security_group" "instance" {
-     name = "terraform-example-instance"
-     ingress {
-       from_port   = 22
-       to_port     = 22
-       protocol    = "tcp"
-       cidr_blocks = ["0.0.0.0/0"]
-     }
-   }
-    ```
-
-1. Specify the EC2 Instance to launch:
-
-   ```hcl-terraform
-    resource "aws_instance" "master1_centos" {
-      ami           = "ami-3c715059"
-      instance_type = "t2.medium"
-      vpc_security_group_ids = [aws_security_group.instance.id]
-      tags          = { Name = "master" }
-
-    }
-    ```
-
-1. Save the file.
-1. Initiate your Terraform environment by running `terraform init`
-1. To show you the list of dependencies in your **main.tf** run `terraform graph`.
-1. Validate your **main.tf** by running `terraform plan`
-1. Run your environment by running `terraform apply`
-1. Destroy your environment by running `terraform destroy`
+    The output shows **tree** shows all that you have three modules:
+      - provider
+      - security_group
+      - vm
