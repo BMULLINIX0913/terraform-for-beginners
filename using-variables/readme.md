@@ -39,7 +39,7 @@ You must follow the [readme.md](../readme.md) steps.
     ```
 
     The block above shows that we are declaring a string
-    variable called *v_region* with a default value of
+    variable called **v_region** with a default value of
     **us-east-2** and an object variable called **amazon_instance**.
     The object variable declares two internal variables called
     **name** with a type of **string** and **instance_type** with
