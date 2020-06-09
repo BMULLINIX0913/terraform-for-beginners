@@ -34,9 +34,10 @@ You must follow the [readme.md](../readme.md) steps.
         name = "Instance1",
         instance_type = "t2.medium"
       }
-    
+
     }
     ```
+
     The block above shows that we are declaring a string
     variable called *v_region* with a default value of
     **us-east-2** and an object variable called **amazon_instance**.
@@ -44,6 +45,7 @@ You must follow the [readme.md](../readme.md) steps.
     **name** with a type of **string** and **instance_type** with
     a type of **string**.  The internal values are given **default**
     values of **Instance1** and **t2.medium** respectively.
+
 1. replace the provider section with the following:
 
     ```hcl-terraform
@@ -51,8 +53,10 @@ You must follow the [readme.md](../readme.md) steps.
       region = var.region
     }
     ```
+
    The provider is now using the variable **var.region** which we
    defined as the variable **region**.
+
 1. replace the resource "aws_instance" "master1_centos" section
 with the following:
 
@@ -62,13 +66,15 @@ with the following:
      instance_type = var.amazon_instance.instance_type
      vpc_security_group_ids = [aws_security_group.instance.id]
      tags          = { Name = var.amazon_instance.name }
-   
+
    }
     ```
+
    The block above shows that we are using our object variable
-   **amazon_instance**.  We are assigning the resource instance type
-   to **amazon_instance.instance_type** and the resource instance name
+   **amazon_instance**.  We are assigning the resource instance_type
+   to **amazon_instance.instance_type** and the resource instance tag "Name"
    to **amazon_instance.name**.
+
 1. save your file
 1. terraform init
 1. Run `terraform plan` to find any errors and review
