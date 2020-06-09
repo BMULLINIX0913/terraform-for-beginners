@@ -1,4 +1,4 @@
-# Working with Terraforms
+# Working with Terraform
 
 Last updated: 06.09.2020
 
