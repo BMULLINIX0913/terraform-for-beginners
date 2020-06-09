@@ -1,6 +1,6 @@
 # Working with Terraforms
 
-Last updated: 06.06.2020
+Last updated: 06.09.2020
 
 ## Purpose
 
@@ -60,7 +60,8 @@ None
 1. export AWS_SECRET_ACCESS_KEY="YOUR SECRET KEY"
 
 #### Instructions
-
+1. mkdir getting_started
+1. cd getting_started
 1. create the **main.tf** file
 1. open the **main.tf** file
 1. Specify the AWS provider:
