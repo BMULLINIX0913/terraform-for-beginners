@@ -52,7 +52,7 @@ You must follow the [readme.md](../readme.md) steps.
     variable called **v_region** with a default value of
     **us-east-2** and an object variable called **amazon_instance**.
     The object variable declares three internal variables called
-    **name** with a type of **string** and **instance_type** with
+    **name** with a type of **string**, **instance_type** with
     a type of **string**, and **keypair** of type object.
     The internal values are given **default**
     values of **Instance1**, **t2.medium**, and **an object
