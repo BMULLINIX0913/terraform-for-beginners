@@ -114,3 +114,8 @@ your deployment.
 
 1. To login, run the following:
 **ssh -i instance1 root@[YOUR URL IN THE STEP ABOVE]**
+1. Run `terraform destroy`
+
+    :warning: I noticed block device volumes were not deleted by the
+    **terraform destroy**.  Make sure you check AWS to ensure all
+    volumes are destroyed.  You could be charged for them.
