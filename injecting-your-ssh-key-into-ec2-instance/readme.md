@@ -108,7 +108,7 @@ with the following:
 your deployment.
 1. Run `terraform apply` to deploy your ec2 instance.
 1. Wait 5 minutes
-1. Run `terraform show` | grep ec2-
+1. Run `terraform show | grep ec2-`
 
     The output of the previous step is your public url to the ec2 instance.
 
