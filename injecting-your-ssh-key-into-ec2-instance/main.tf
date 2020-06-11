@@ -17,8 +17,8 @@ variable "amazon_instance" {
     name = "Instance1",
     instance_type = "t2.medium"
     keypair = {
-      private = "instance1"
-      public = "instance1.pub"
+      private = "my_key"
+      public = "my_key.pub"
     }
   }
 }

@@ -16,8 +16,8 @@ You must follow the [readme.md](../readme.md) steps.
 1. export AWS_ACCESS_KEY_ID="YOUR ACCESS KEY"
 1. export AWS_SECRET_ACCESS_KEY="YOUR SECRET KEY"
 1. cp ../getting_started/main.tf .
-1. Generate a key pair `ssh-keygen -t rsa -f instance1`
-1. chmod 400 ./instance1
+1. Generate a key pair `ssh-keygen -t rsa -f my_key`
+1. chmod 400 ./my_key
 1. vi main.tf
 1. Add the following block to the top of the file:
 
@@ -41,8 +41,8 @@ You must follow the [readme.md](../readme.md) steps.
             name = "Instance1",
             instance_type = "t2.medium"
             keypair = {
-              private = "instance1"
-              public = "instance1.pub"
+              private = "my_key"
+              public = "my_key.pub"
             }
           }
         }

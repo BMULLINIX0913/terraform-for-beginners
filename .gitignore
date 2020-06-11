@@ -1,3 +1,5 @@
 .terraform
 *.tfstate
 *.tfstate.backup
+my_key
+my_key.pub
