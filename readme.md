@@ -105,7 +105,7 @@ environment and cost you money.
     :warning: The **AMI** describes the image to use in your region.  The
     **AMI** might not be available in your Amazon Region.  Please find the
     **AMI** by performing the steps in the
-    [getting started with aws](../getting-started-working-with-aws) repo.
+    [getting started with aws](https://github.com/bretmullinix/getting-started-working-with-aws) repo.
 
 1. Save the file.
 1. Initiate your Terraform environment by running `terraform init`
