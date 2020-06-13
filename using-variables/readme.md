@@ -1,6 +1,6 @@
 # Working with Terraform
 
-Last updated: 06.09.2020
+Last updated: 06.13.2020
 
 ## Purpose
 
@@ -21,7 +21,7 @@ You must follow the [readme.md](../readme.md) steps.
 
     ```hcl-terraform
     variable "region" {
-      default = "us-east-2"
+      default = "us-east-1"
     }
     variable "amazon_instance" {
       type = object (
@@ -62,7 +62,7 @@ with the following:
 
    ```hcl-terraform
    resource "aws_instance" "master1_centos" {
-     ami           = "ami-3c715059"
+     ami           = "ami-0ff750889570c0406"
      instance_type = var.amazon_instance.instance_type
      vpc_security_group_ids = [aws_security_group.instance.id]
      tags          = { Name = var.amazon_instance.name }

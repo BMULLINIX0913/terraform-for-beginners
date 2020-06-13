@@ -1,8 +1,8 @@
 provider "aws" {
-  region = "us-east-2"
+  region = "us-east-1"
 }
 resource "aws_instance" "master1_centos" {
-  ami           = "ami-3c715059"
+  ami           = "ami-0ff750889570c0406"
   instance_type = "t2.medium"
   vpc_security_group_ids = [aws_security_group.instance.id]
   tags          = { Name = "master" }
