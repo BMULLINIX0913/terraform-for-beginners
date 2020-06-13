@@ -48,11 +48,10 @@ None
 1. Click on the **Create User** button
 1. Click on the **Download .csv** button.
 
-> :warning: YOU WILL NOT BE ABLE
->TO SAVE THE FILE AGAIN.  THIS FILE CONTAINS YOUR
->**AWS_ACCESS_KEY_ID** and your **AWS_SECRET_ACCESS_KEY**
-
-
+:warning: The downloaded .csv will be called **credentials.csv**.
+Keep this file safe.  It contains your **AWS Access Key ID** and your
+**AWS Secret Access Key**.  These keys can give any users access to your
+environment and cost you money.
 
 ##### Add Environment Variables for each Terraform Terminal
 
