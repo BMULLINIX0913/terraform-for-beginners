@@ -1,4 +1,4 @@
-# Working with Terraform
+# Using Variables
 
 Last updated: 06.14.2020
 

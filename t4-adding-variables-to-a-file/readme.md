@@ -1,4 +1,4 @@
-# Working with Terraform and using a variable file.
+# Adding Variables to a File
 
 Last updated: 06.14.2020
 

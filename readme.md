@@ -32,7 +32,8 @@ The tutorials in this repo are as follows:
     move your variables from the **main.tf** to a separate variable file.  The
     tutorial is located in the **t4-adding-variables-to-a-file** folder.
 
-5. **Output Host IP Address**
+5. **Output Host IP Address to an Ansible Inventory file**
 
-   Adds to tutorial 4 by showing how to output the resulting EC2 host name to a
-   file.  The tutorial is located in the **t5-output-host-ip-address** folder.
+   Adds to tutorial 4 by showing how to output the resulting EC2 host name to an
+   Ansible Inventory file.  The tutorial is located in the
+   **t5-output-host-ip-address-to-ansible-inventory** folder.

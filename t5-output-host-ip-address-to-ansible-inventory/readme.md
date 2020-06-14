@@ -1,4 +1,4 @@
-# Working with Terraform and placing output in a file.
+# Output Host IP Address to an Ansible Inventory file
 
 Last updated: 06.14.2020
 

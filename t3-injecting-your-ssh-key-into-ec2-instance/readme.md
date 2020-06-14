@@ -1,4 +1,4 @@
-# Working with Terraform and Injecting Your SSH Key for your Amazon EC2 Instance
+# Injecting Your SSH Key Into An EC2 Instance
 
 Last updated: 06.14.2020
 

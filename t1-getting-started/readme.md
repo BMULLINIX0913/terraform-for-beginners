@@ -1,4 +1,4 @@
-# Working with Terraform
+# Getting Started
 
 Last updated: 06.13.2020
 
