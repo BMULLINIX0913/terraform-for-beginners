@@ -6,7 +6,7 @@ Last updated: 06.14.2020
 
 The purpose of the repo is to provide simple tutorials for Terraform.
 
-# Instructions
+## Tutorials
 The tutorials in this repo are as follows:
 
 1. **Getting Started** = Shows the user how to setup their environment
