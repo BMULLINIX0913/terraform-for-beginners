@@ -5,3 +5,4 @@ my_key
 my_key.pub
 readme.txt
 *.zip
+terraform_output/

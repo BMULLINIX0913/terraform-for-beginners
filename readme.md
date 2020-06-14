@@ -31,5 +31,8 @@ The tutorials in this repo are as follows:
     Adds to tutorial 3 by showing how to
     move your variables from the **main.tf** to a separate variable file.  The
     tutorial is located in the **t4-adding-variables-to-a-file** folder.
- 
 
+5. **Output Host IP Address**
+
+   Adds to tutorial 4 by showing how to output the resulting EC2 host name to a
+   file.  The tutorial is located in the **t5-output-host-ip-address** folder.

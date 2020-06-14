@@ -58,7 +58,9 @@ your deployment.
     The output of the previous step is your public url to the ec2 instance.
 
 1. To login, run the following:
-**ssh -i instance1 root@[YOUR URL IN THE STEP ABOVE]**
+
+    **ssh -i my_key [The EC2 Default User]@[The IP Address in the Step Above]**
+
 1. Run `terraform destroy`
 
     :warning: I noticed block device volumes were not deleted by the
