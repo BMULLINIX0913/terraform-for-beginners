@@ -17,8 +17,8 @@ and run some Terraform.  The tutorial is located in the
 The tutorial is located in the **t2-using-variables** folder.
 
 3. **Injecting Your SSH Key Into An EC2 Instance** = Adds to tutorial 2 by
-showing how to inject your private key int your EC2 instance.
-The tutiorial is located in the **t3-injecting-your-ssh-key-into-ec2-instance** folder.
+showing how to inject your private key into your EC2 instance.
+The tutorial is located in the **t3-injecting-your-ssh-key-into-ec2-instance** folder.
 
 4. **Adding Variables to a File** = Adds to tutorial 3 by showing how to
 move your variables from the **main.tf** to a separate variable file.  The
