@@ -17,7 +17,7 @@ None.
 1. export AWS_SECRET_ACCESS_KEY="YOUR SECRET KEY"
 1. Generate a key pair `ssh-keygen -t rsa -f my_key`
 1. chmod 400 ./my_key
-1. cp ../injecting-your-ssh-key-into-ec2-instance/main.tf .
+1. cp ../t3-injecting-your-ssh-key-into-ec2-instance/main.tf .
 1. Remove the following content from the *main.tf* and place the
 content in a new file called *variables.tf*.
 
